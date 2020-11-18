@@ -1,0 +1,41 @@
+{
+    "name": "mkarcade-ext",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "storyboard": "*",
+        "animation": "*",
+        "darts": "*",
+        "keyboard": "*",
+        "mouse": "*",
+        "radio": "*",
+        "radio-broadcast": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.2.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "color-coded-tilemap": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
